@@ -1,4 +1,4 @@
-# Cassandra のインストール on Ubuntu
+﻿# Cassandra のインストール on Ubuntu
 
 ## Oracle Java 8 のインストール
 
@@ -9,7 +9,7 @@
 ## Cassandra のインストール
 [ここ](http://docs.datastax.com/en/cassandra/3.x/cassandra/install/installDeb.html)参照
 
-- echo "deb http://debian.datastax.com/datastax-ddc 3.2 main" | sudo tee -a /etc/apt/sources.list.d/cassandra.sources.list
+- echo "deb http://debian.datastax.com/datastax-ddc 3.3 main" | sudo tee -a /etc/apt/sources.list.d/cassandra.sources.list
 - curl -L https://debian.datastax.com/debian/repo_key | sudo apt-key add -
 - sudo apt-get update
 - sudo apt-get install datastax-ddc
