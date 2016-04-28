@@ -15,7 +15,7 @@ namespace JenkinsTest.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "pull requestトリガーテスト";
+            ViewBag.Message = "pull requestトリガーテスト update";
 
             return View();
         }
