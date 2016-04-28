@@ -17,6 +17,7 @@ namespace JenkinsTest.Models
         [Test(Description ="NGのケース")]
         public void TestNG()
         {
+            // エラー
             Assert.Fail();
         }
     }
