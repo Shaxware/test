@@ -15,7 +15,7 @@ namespace JenkinsTest.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Jenkins Test";
+            ViewBag.Message = "Jenkins Test3";
 
             return View();
         }
