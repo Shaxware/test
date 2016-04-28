@@ -19,6 +19,7 @@ namespace JenkinsTest.Models
         {
             // GitHub Pull Request Builder Pluginで、
             // コミット&プッシュのケースを試してみる
+            // 再度
             //           Assert.Fail();
         }
     }
