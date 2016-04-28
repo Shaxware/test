@@ -14,11 +14,10 @@ namespace JenkinsTest.Models
         {
         }
 
-        [Test(Description ="NGのケース")]
+        [Test(Description ="NGをOKに修正のケース")]
         public void TestNG()
         {
-            // NGパターン
-            Assert.Fail();
+ //           Assert.Fail();
         }
     }
 }
