@@ -6,7 +6,7 @@ using NUnit.Framework;
 
 namespace JenkinsTest.Models
 {
-    [TestFixture(Description="JenkinsのNUnit動作テストを行います")]
+    [TestFixture(Description="JenkinsのNUnit動作テストを行います。")]
     public class ModelTest
     {
         [Test(Description="OKのケース")]
@@ -14,10 +14,10 @@ namespace JenkinsTest.Models
         {
         }
 
-        [Test(Description ="NGのケース")]
+        [Test(Description ="NGをOKに修正のケース")]
         public void TestNG()
         {
-            Assert.Fail();
+ //           Assert.Fail();
         }
     }
 }
