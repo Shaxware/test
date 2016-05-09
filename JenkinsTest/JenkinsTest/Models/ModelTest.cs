@@ -17,9 +17,7 @@ namespace JenkinsTest.Models
         [Test(Description ="NGをOKに修正のケース")]
         public void TestNG()
         {
-            // GitHub Pull Request Builder Pluginで、
-            // コミット&プッシュのケースを試してみる
-            // 再度
+            // GitHub pluginで、developへのマージでビルドが起動することを確認する。
             //           Assert.Fail();
         }
     }
