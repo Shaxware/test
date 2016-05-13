@@ -17,7 +17,7 @@ namespace JenkinsTest.Models
         [Test(Description ="NGをOKに修正のケース")]
         public void TestNG()
         {
-            // GitHub pluginで、developへのマージでビルドが起動することを確認する。３
+            // Jenkinsの「ビルド実行」の挙動確認
             //           Assert.Fail();
         }
     }
