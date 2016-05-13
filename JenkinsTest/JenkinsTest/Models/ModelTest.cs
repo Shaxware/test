@@ -18,7 +18,7 @@ namespace JenkinsTest.Models
         public void TestNG()
         {
             // Jenkinsの「ビルド実行」の挙動確認
-            //           Assert.Fail();
+            Assert.Fail();
         }
     }
 }
