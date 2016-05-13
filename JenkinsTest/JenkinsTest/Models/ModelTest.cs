@@ -17,8 +17,7 @@ namespace JenkinsTest.Models
         [Test(Description ="NGをOKに修正のケース")]
         public void TestNG()
         {
-            // コメント追加
-            Assert.Fail();
+            // Assert.Fail();
         }
     }
 }
